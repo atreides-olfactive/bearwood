@@ -4,7 +4,7 @@
   font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
-  src: url("bearwood/fonts/jost-v18-latin-regular.woff2") format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/bearwood/fonts/jost-v18-latin-regular.woff2") format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 .main {
@@ -22,7 +22,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url("bearwood/img/main.jpeg");
+    background-image: url("/bearwood/img/main.jpeg");
     position: absolute;
     top: 0;
     left: 0;
@@ -45,6 +45,6 @@
 
 @media screen and (min-width: 1024px) and (max-height: 1366px) {
     .background_image {
-        background-image: url("bearwood/img/main_2.jpeg"); /* Replaces the background image */
+        background-image: url("/bearwood/img/main_2.jpeg"); /* Replaces the background image */
     }
 }
